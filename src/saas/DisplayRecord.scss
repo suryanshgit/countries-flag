@@ -1,0 +1,55 @@
+.content-container {
+  padding: 1rem;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 13%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  height: 50%;
+  background: #dcdde1;
+}
+
+.selector {
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 5%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  border: 2px solid black;
+}
+
+.image-card {
+  width: 125px;
+  height: 75px;
+  object-fit: contain;
+}
+
+@media (max-width: 650px) {
+  .content-container {
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      padding-top: 0.5rem;
+    }
+    div:last-child {
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  .selector {
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 10%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border: 2px solid black;
+  }
+}

@@ -1,0 +1,75 @@
+.content-container {
+  padding: 1rem;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 13%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  height: 50%;
+  background: #dcdde1;
+}
+
+.selector {
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  outline: none;
+  border: 2px solid black;
+}
+
+.image-card {
+  width: 125px;
+  height: 75px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 650px) {
+  .content-container {
+    margin-top: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-container div {
+    padding-top: 0.5rem;
+  }
+  .content-container div:last-child {
+    padding-bottom: 0.5rem;
+  }
+  .selector {
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 10%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    outline: none;
+    border: 2px solid black;
+  }
+}
+/*# sourceMappingURL=DisplayRecord.css.map */
