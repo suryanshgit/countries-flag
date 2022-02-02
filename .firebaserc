@@ -1,8 +1,0 @@
-{
-  "projects": {
-    "default": "rest-fake-api",
-    "Countries-info": "rest-fake-api",
-    "countries-info": "fir-project-surya"
-  },
-  "targets": {}
-}
